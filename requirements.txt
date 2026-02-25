@@ -1,13 +1,15 @@
-tensorflow
-opencv-python
-numpy
-pandas
-matplotlib
-scikit-learn
+# Core ML
+tensorflow==2.16.1
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+matplotlib==3.8.4
+
+# Computer Vision
+opencv-python==4.9.0.80
+Pillow==10.3.0
+
+# Backend API
 fastapi==0.111.0
 uvicorn[standard]==0.30.0
 python-multipart==0.0.9
-opencv-python==4.9.0.80
-numpy==1.26.4
-Pillow==10.3.0
-tensorflow==2.16.1
